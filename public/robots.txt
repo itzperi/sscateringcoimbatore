@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api
+Disallow: /*.json$
+Disallow: /*?*sort=
+Disallow: /*?*filter=
+
+Sitemap: https://www.sscateringcoimbatore.com/sitemap.xml
+
+# Google-specific
+User-agent: Googlebot
+Allow: /
+
+# Bing-specific
+User-agent: Bingbot
+Allow: /
+
+# Respectful crawl delay
+Crawl-delay: 2

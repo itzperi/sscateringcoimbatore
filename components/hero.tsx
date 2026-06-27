@@ -95,26 +95,32 @@ export default function Hero() {
           </div>
 
           <h1 className="sr-only">SS Catering and Events - Best Catering Service in Coimbatore</h1>
-          <p className="text-xl md:text-2xl text-white/90 mb-8">
-            Deliciously Crafted | Expertly Served – Best Catering in Coimbatore
+          <h1 className="text-4xl md:text-5xl font-playfair font-bold text-white mb-4 text-balance">
+            Coimbatore&apos;s Most Trusted Brahmin Caterers Since 2012
+          </h1>
+          <p className="text-lg md:text-2xl text-white/90 mb-8">
+            Pure Vegetarian · Onion &amp; Garlic Free · Authentic Tamil Nadu Flavors
+          </p>
+          <p className="text-base md:text-lg text-white/80 mb-8 max-w-2xl mx-auto">
+            From intimate family poojas to grand wedding feasts, SS Catering &amp; Events brings the sacred taste of Brahmin cooking to your most important moments. Serving Coimbatore, Tirupur, Pollachi &amp; all of Tamil Nadu.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
               size="lg"
-              className="bg-primary hover:bg-primary/90 text-white flex items-center gap-2"
+              className="bg-gold hover:bg-gold/90 text-charcoal flex items-center gap-2 font-semibold"
               onClick={() => window.open("tel:+918667566318")}
             >
-              <Phone size={18} />
-              Call Now: +91 86675 66318
+              <Phone size={20} />
+              Call Now: 086675 66318
             </Button>
             <Button
               size="lg"
               variant="outline"
-              className="bg-white/10 backdrop-blur-sm border-white/20 text-white hover:bg-white/20 flex items-center gap-2"
-              onClick={() => window.open("https://wa.me/919629626337", "_blank")}
+              className="bg-white/10 backdrop-blur-sm border-white/20 text-white hover:bg-white/20 flex items-center gap-2 font-semibold"
+              onClick={() => window.open("https://wa.me/918667566318", "_blank")}
             >
-              <MessageSquare size={18} />
+              <MessageSquare size={20} />
               WhatsApp Us
             </Button>
           </div>
