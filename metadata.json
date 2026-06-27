@@ -1,0 +1,6 @@
+{
+  "name": "SS Catering & Events",
+  "description": "Best Brahmin Caterers in Coimbatore for Weddings, Poojas & Corporate Events. Authentic South Indian vegetarian catering since 2012.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
